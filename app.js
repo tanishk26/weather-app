@@ -9,7 +9,7 @@ app.get("/", function (req, res) {
 });
 app.post("/", function (req, res) {
   const query = req.body.cityName;
-  const apiKey = "a9679ef6a55ba38c197bccb9f8b612df";
+  const apiKey = "";
   const unit = "metric";
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -49,7 +49,3 @@ app.listen(3000, function () {
 /*
  */
 
-/*
-a9679ef6a55ba38c197bccb9f8b612df
-https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=a9679ef6a55ba38c197bccb9f8b612df&units=metric
-*/
